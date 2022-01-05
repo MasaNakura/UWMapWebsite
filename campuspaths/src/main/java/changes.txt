@@ -1,0 +1,17 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+- implemented GraphNeighbors instead of StringGraphNeighbors in order to
+be able to use Dijkstra's in the staff-given library.
+
+- made both my DirGraph ADT and Edge/Nodes inner-classes to be generic
+in order to support weighted graphs and any other graphs with different
+node/edge labels.
+
+- Made my edge class non-static and added a method in my DirGraph that
+creates and returns an Edge object so all edges that clients use will store
+generified label types that the instance of DirGraph uses. Clients can use
+those edges to represent paths of edges for that specific graph.
+
+- Changed some method parameters from passing edges to passing node/edge data
+such as when creating new edges, so that clients don't have to make Edge
+objects themselves when calling those methods.
