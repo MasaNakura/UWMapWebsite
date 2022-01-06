@@ -1,0 +1,25 @@
+/*
+This file sets components in my App to have correct setting,
+so that UI looks cleaner and easy to see.
+ */
+
+#select-building {
+    text-align: center;
+}
+
+#select-building select{
+    margin: 5px;
+}
+
+#select-building button{
+    margin: 5px;
+}
+
+#title {
+    text-align: center;
+    font-size: 180%;
+}
+
+p {
+    text-align: center;
+}
